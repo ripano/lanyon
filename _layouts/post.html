@@ -11,12 +11,12 @@ layout: default
   <ul class="related-posts">
     {% for post in site.related_posts limit:10 %}
       <li>
-        <h3>
+        
           <a href="{{ site.baseurl }}{{ post.url }}">
-            <small>{{ post.title }}</small>
+            {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
           </a>
-        </h3>
+        
       </li>
     {% endfor %}
   </ul>
