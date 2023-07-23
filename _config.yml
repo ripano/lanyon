@@ -1,7 +1,7 @@
 # Setup
-title:               Blog
-tagline:             'Blogku'
-description:         'Blogku'
+title:               Jasaindigo.com
+tagline:             'Blog'
+description:         'Blog'
 url:                 
 baseurl:             '/'
 paginate:            5
