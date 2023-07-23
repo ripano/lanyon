@@ -1,7 +1,7 @@
 # Setup
-title:               Lanyon
-tagline:             'Lanyon'
-description:         'My Blog'
+title:               Blog
+tagline:             'Blogku'
+description:         'Blogku'
 url:                 
 baseurl:             '/'
 paginate:            5
