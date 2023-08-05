@@ -219,6 +219,12 @@ Untuk melihat aura Anda sendiri , sebaiknya berdiri menghadap dinding putih atau
 Pindahkan fokus Anda sedikit lebih jauh. Lembutkan pandangan Anda dan terus lihat energi halus yang mengelilingi Anda. Latihan ini membutuhkan latihan, jadi jangan berkecil hati jika Anda tidak dapat 'melihat' warna secara langsung. Anda dapat melatih keterampilan membaca aura Anda pada orang dan tumbuhan lain.
   {{ content }}
 </div>
-
+<ul>
+        {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:10 %}
+        {% for post in posts %}
+          {% include rp.html %}
+        {% endfor %}
+      </ul>
+       
 
 {% endif %}
