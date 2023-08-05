@@ -4,7 +4,7 @@ tagline:             'Blog'
 description:         'Blog'
 url:                 
 baseurl:             '/'
-paginate:            10
+paginate:            100
 permalink:           pretty
 
 # About/contact
